@@ -1,7 +1,5 @@
 //click on lists to remove or line thorugh
-$("ul").on("click","li",function(){
-   $(this).toggleClass("complete");
-});
+
 
 //click on x to delete todo
 $("ul").on("click","span",function(event){
